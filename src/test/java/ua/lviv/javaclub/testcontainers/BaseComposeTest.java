@@ -14,8 +14,6 @@ import java.io.File;
 @Testcontainers
 public abstract class BaseComposeTest {
 
-
-
     @Container
     private static final DockerComposeContainer ENVIRONMENT =
     new DockerComposeContainer(new File("src/docker/docker-compose.yml"))

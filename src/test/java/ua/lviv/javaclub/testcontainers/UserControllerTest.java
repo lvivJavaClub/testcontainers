@@ -12,8 +12,8 @@ import static org.springframework.boot.test.context.SpringBootTest.WebEnvironmen
 
 @SpringBootTest(webEnvironment = DEFINED_PORT)
 class UserControllerTest
- extends BaseTest
-// extends BaseComposeTest
+// extends BaseTest
+ extends BaseComposeTest
     {
 
     @BeforeAll
